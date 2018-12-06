@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container column">
+      <div class="row">
+          <div class="column">
+            <div class="logo">Logo</div>
+          </div>
+      </div>
+      <div class="row main">
+        <aside class="column left">
+          <button id="exams" type="button" name="button">Exams</button>
+          <button id="students" type="button" name="button">students</button>
+        </aside>
+        <div class="column exams-container">
+          <h1>All Exams</h1>
+          <table>
+              <tr>
+                <th>Exam ID</th>
+                <th>Avg Exam Grade</th>
+                <th>Students</th>
+              </tr>
+          </table>
+          <div class="column exams">
+            <table id="scores-table"></table>
+          </div>
+        </div>
+        <div class="column single-exam-container">
+            <table id="exam-table"></table>
+        </div>
+        <div class="column students-container">
+          <h1>All Students</h1>
+          <table>
+              <tr>
+                <th>Student ID</th>
+              </tr>
+          </table>
+          <div class="column students">
+            <table id="student-table"></table>
+          </div>
+        </div>
+        <div class="column single-student-container">
+            <table id="exam-table"></table>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
