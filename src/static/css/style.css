@@ -1,16 +1,16 @@
-body{
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #333;
   background: #eeeef0;
 }
-.container{
+.container {
   border: 1px solid #b9b9b9;
-  width:800px;
+  width: 800px;
   margin: 0 auto;
 }
 
-.column{
+.column {
   flex-basis: 100%;
 }
 .row {
@@ -25,80 +25,88 @@ body{
   flex: 0.2;
   align-items: stretch;
 }
-.scores{
+.scores {
   flex: 0.8;
 }
-.logo{
+.logo {
   width: 760px;
   height: 20px;
   padding: 20px;
   border-bottom: 1px solid #b9b9b9;
 }
 
-.main{
+.main {
   height: 600px;
 }
 
-.getClassInfo:hover, .getStudentInfo:hover{
-  background: #CCC;
+.getClassInfo:hover,
+.getStudentInfo:hover {
+  background: #ccc;
   cursor: pointer;
 }
 
-.exams-container{
+.exams-container {
   display: block;
   padding: 0 20px;
 }
 
-.students-container{
+.students-container {
   display: none;
   padding: 0 20px;
 }
 
-.single-exam-container, .single-student-container{
+.single-exam-container,
+.single-student-container {
   display: none;
   height: 600px;
   overflow-y: scroll;
   padding: 0 20px;
-
 }
-.exams, .students{
+.exams,
+.students {
   height: 500px;
   overflow-y: scroll;
 }
+#exam-table tr {
+  width: 100%;
+}
+#exam-table td {
+  width: 25%;
+}
 
-
-table{
+table {
   border: 1px solid #b9b9b9;
   width: 100%;
   text-align: left;
   border-spacing: 0;
 }
 
-th, td {
+th,
+td {
   padding: 5px;
   width: 33%;
   text-align: left;
   border-right: 1px solid #b9b9b9;
   border-bottom: 1px solid #b9b9b9;
-  margin:0;
-
+  margin: 0;
 }
-td:last-child, th:last-child{
+td:last-child,
+th:last-child {
   border-right: none;
 }
-td{
+td {
   padding: 10px;
   border-left: none;
 }
-button{
+button {
   width: 100%;
-  height:50%;
+  height: 50%;
   border: none;
   cursor: pointer;
   border-right: 1px solid #b9b9b9;
   border-bottom: 1px solid #b9b9b9;
 }
 
-button.active{
-  background: #f3f3f3
+button.active {
+  background: #f3f3f3;
 }
